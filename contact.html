@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <h1>My Portfolio</h1> 
+        <div class="container">
+            <div class="sidebar sidebarGo">
+
+           
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/skills.html">Skills</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/resume.html">Resume</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+      <div class="icons">
+        <img class="bar" src="bar.png" width="23px">
+        <img  class="cross" src="cross.png" width="23px">
+        </div>
+        <div class="contactform">
+            <h2> Contact me for Work or any other quieries</h2>
+            <form>
+                <div class="mb-3">
+                  <label for="clientname" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="clientname" aria-describedby="emailHelp">
+                  </div>
+
+                  <divclass="mb-3">
+                  <label for="clientEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="clientEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email & phone number with anyone else.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="clientPhoneno" class="form-label">PhoneNO</label>
+                  <input type="number" class="form-control" id="clientPhoneno" >
+                </div>
+
+                <div class="mb-3">
+                  <label for="clientenquieres" class="form-label">Enter any Enquieries</label>
+                  <input type="text" class="form-control" id="clientenquieres" aria-describedby="emailHelp">
+                  </div>
+
+                <div class="mb-3" id="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="isclient">I want to work with you on project. </label>
+                </div>
+                <div class="btn">
+                <button type="submit" class="btn btn-primary" >Submit</button>
+              </div>
+              </form>
+        </div>
+        
+    </div>
+    <script src="scripts.js"></script>
+    </body>
+    </html>
